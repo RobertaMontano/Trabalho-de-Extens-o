@@ -1,0 +1,49 @@
+.custom-bar-chart .chart-title {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+}
+
+.custom-bar-chart .axis-label {
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+}
+
+.custom-bar-chart .axis {
+    -fx-tick-label-fill: white;
+    -fx-font-size: 14px;
+}
+
+.custom-bar-chart .axis .tick-mark {
+    -fx-stroke: white;
+}
+
+.custom-bar-chart .axis .tick-label {
+    -fx-fill: white;
+    -fx-font-size: 14px;
+}
+
+/* Estilo das barras */
+.default-color0.chart-bar {
+    -fx-bar-fill: #3498db;
+}
+
+.default-color1.chart-bar {
+    -fx-bar-fill: #e74c3c;
+}
+
+.default-color2.chart-bar {
+    -fx-bar-fill: #2ecc71;
+}
+
+.default-color3.chart-bar {
+    -fx-bar-fill: #f1c40f;
+}
+
+/* Estilo das legendas */
+.legenda-item {
+    -fx-font-size: 18px;
+    -fx-fill: white;
+    -fx-font-weight: bold;
+}
